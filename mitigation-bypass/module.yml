@@ -1,0 +1,9 @@
+name: Mitigation Bypass
+challenges:
+    - id: level-1-0
+      name: Level 1.0
+
+resources:
+    - name: "系统安全实验二"
+      type: lecture
+      slides: lab-2

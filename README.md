@@ -1,2 +1,2 @@
-# software-security-lab-dojo
-Dojo - Software Security Lab Course at HUST CSE
+# system-security-lab-dojo-x64
+Dojo - System Security Lab Course at HUST CSE for 2024
