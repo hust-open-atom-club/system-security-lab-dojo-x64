@@ -1,55 +1,17 @@
-id: software-security-lab
+id: system-security-lab-2024
 
-name:  Fall 2023 - 软件安全实验
-
-description: |
-  绝对安全的软件系统现在不存在，将来也不会存在。
+name:  Fall 2024 - 系统安全实验
 
 type: course
 
 award:
-  emoji: Coal_Badge
+  emoji: Charmander
 
-comparator: 9999
+comparator: 9997
 
 modules:
   - id: reverse-engineering
-    name: Reverse Engineering
-    description: |
-      学习对ELF程序进行简单的逆向分析，理解并掌握对异或、移位、换表操作的求逆方法，以及学习使用GDB对程序进行简单的动态调试
-      \
-      \
-      **关卡等级分布：**
-      - Level 1.0 - ELF程序的简单逆向分析
-      \
-      \
-      **注：为了更有效地解决这些挑战关卡，你首先需要运行 /challenge 目录下的挑战题目，随后根据提示完成挑战。**
-    
-    challenges:
-        - id: level-1-0
-          name: Level 1.0
-          description: "本关卡需学习并理解简单异或、移位、换表操作的求逆方法，掌握GDB动态调试、Z3约束求解、MD5哈希爆破的基础技巧"
-    resources:
-        - name: "软件安全实验一"
-          type: lecture
-          slides: lab-1
+    icon: Bulbasaur
 
   - id: mitigation-bypass
-    name: Mitigation Bypass
-    description: |
-      学习与绕过一些安全防御机制，如栈保护（Stack Protector），地址空间随机化（ASLR）
-      \
-      \
-      **关卡等级分布：**
-      - Level 1.0 - 爆破栈 canary 保护与绕过地址随机化
-      \
-      \
-      **注：为了更有效地解决这些挑战关卡，你首先需要运行 /challenge 目录下的挑战题目，随后根据提示完成挑战。**
-    challenges:
-        - id: level-1-0
-          name: Level 1.0
-          description: "本关卡需学习并理解 stack canary 暴力破解原理，掌握地址随机化绕过与 ROP 的基础技巧"
-    resources:
-        - name: "软件安全实验二"
-          type: lecture
-          slides: lab-2
+    icon: Squirtle
