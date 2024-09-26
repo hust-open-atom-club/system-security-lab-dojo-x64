@@ -1,4 +1,4 @@
-name: Reverse Engineering
+name: ELF 逆向分析
     
 challenges:
     - id: level-1-0
